@@ -1,1 +1,1 @@
-# Travel Planner React App
+# Travel Planner App
