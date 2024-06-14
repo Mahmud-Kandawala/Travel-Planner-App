@@ -86,11 +86,11 @@ The application is fully responsive, ensuring a seamless user experience across 
 
 ## Images
 
-![Home Screen](images/home.png)
+![Home Screen](images/Home.png)
 ![User Preferences Screen](images/UP.png)
 ![Flgiht Booking Screen](images/FB.png)
 ![Weather Screen](images/Weather.png)
-![Itinerary Screen](images/IT.png)
+![Itinerary Screen](images/Custom.png)
 ![Map Screen](images/Map.png)
 ![Collab Screen](images/Collab.png)
 
