@@ -1,0 +1,134 @@
+/* src/components/WeatherForecast.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Lobster&display=swap');
+
+.weather-forecast-container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-section, .form-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.form-title {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.weather-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #e2ebf0 0%, #e2ebf0 100%);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #00796b;
+  display: flex;
+  align-items: center;
+}
+
+.card-header svg {
+  margin-right: 8px;
+}
+
+.card-details {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.card-details svg {
+  margin-right: 8px;
+}
+
+.section-title {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #004d40;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin: 16px auto 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #00796b;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,87 @@
+/* src/components/FlightBooking.css */
+
+.flight-booking-container {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.left-section {
+  grid-column: 1 / span 1;
+}
+
+.right-section {
+  grid-column: 2 / span 1;
+}
+
+.search-container, .results-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.search-container h1, .results-container h1, .saved-searches-header {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  color: #333;
+}
+
+button {
+  display: block;
+  margin: 16px auto 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: #00796b;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.flight-item, .search-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-item {
+  border-left: 5px solid #00796b;
+}
+
+.flight-item .MuiListItemIcon-root, .search-item .MuiListItemIcon-root {
+  min-width: 40px;
+}
