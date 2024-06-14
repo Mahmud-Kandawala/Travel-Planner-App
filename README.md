@@ -136,16 +136,16 @@ The application is fully responsive, ensuring a seamless user experience across 
 
 ## Challenges and Solutions
 ### Challenge 1: Real-time Collaborative Planning
-**Problem**: Ensuring that multiple users can simultaneously update and view the same itinerary in real-time without conflicts.
-**Solution**: Implemented Socket.IO for real-time communication. This allowed the application to send and receive updates instantly across all connected clients. To handle conflicts, we set up a system where changes are broadcasted to all users, and the latest update is always displayed.
+- **Problem**: Ensuring that multiple users can simultaneously update and view the same itinerary in real-time without conflicts.
+- **Solution**: Implemented Socket.IO for real-time communication. This allowed the application to send and receive updates instantly across all connected clients. To handle conflicts, we set up a system where changes are broadcasted to all users, and the latest update is always displayed.
 
 ### Challenge 2: Seamless Integration of Multiple Features
-**Problem**: Integrating various functionalities such as flight booking, weather forecasting, and itinerary planning into a single cohesive application.
-  ***Solution***: Used a modular approach to design the application, breaking down features into individual components. Leveraged React for component-based architecture and maintained a consistent state management approach using React's useState and useEffect hooks.
+- **Problem**: Integrating various functionalities such as flight booking, weather forecasting, and itinerary planning into a single cohesive application.
+- **Solution**: Used a modular approach to design the application, breaking down features into individual components. Leveraged React for component-based architecture and maintained a consistent state management approach using React's useState and useEffect hooks.
 
 ### Challenge 3: Ensuring Data Security and Privacy
-**Problem**: Handling sensitive user data such as preferences and travel plans securely.
-**Solution**: Applied best practices for data security, including using HTTPS for secure communication, validating and sanitizing all user inputs, and securely managing API keys and tokens. Implemented CORS policies to restrict unauthorized access.
+- **Problem**: Handling sensitive user data such as preferences and travel plans securely.
+- **Solution**: Applied best practices for data security, including using HTTPS for secure communication, validating and sanitizing all user inputs, and securely managing API keys and tokens. Implemented CORS policies to restrict unauthorized access.
 
 
 ## License
