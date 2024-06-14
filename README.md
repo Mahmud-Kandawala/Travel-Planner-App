@@ -141,7 +141,7 @@ The application is fully responsive, ensuring a seamless user experience across 
 
 ### Challenge 2: Seamless Integration of Multiple Features
 **Problem**: Integrating various functionalities such as flight booking, weather forecasting, and itinerary planning into a single cohesive application.
-**Solution**: Used a modular approach to design the application, breaking down features into individual components. Leveraged React for component-based architecture and maintained a consistent state management approach using React's useState and useEffect hooks.
+  ***Solution***: Used a modular approach to design the application, breaking down features into individual components. Leveraged React for component-based architecture and maintained a consistent state management approach using React's useState and useEffect hooks.
 
 ### Challenge 3: Ensuring Data Security and Privacy
 **Problem**: Handling sensitive user data such as preferences and travel plans securely.
